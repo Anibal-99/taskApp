@@ -1,0 +1,24 @@
+{% extends 'base.html' %} <!--con esto lo que hace es decir que herada del archivo base.html-->
+
+{% block content %} <!-- con esto decimos lo que debe ir en el block de base.html-->
+<main class= "container py-5">
+    <section class = "card card-body">
+        <h1 class="display-1 text-center">Django Task App</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                In laborum adipisci nostrum, consequuntur totam molestias repellat aliquid, libero mollitia expedita ipsa magni eos.
+                Ducimus consectetur repudiandae voluptatibus veritatis magni, itaque porro inventore sed. Aut recusandae minima
+                amet a aspernatur assumenda distinctio dolorum fugit optio,
+                officiis dolore, ipsa, laudantium tempore impedit!
+            </p>
+            <div class="text-center">
+                <a class="btn btn-secondary" href="/signin">
+                    Signin
+                </a>
+                <a class="btn btn-dark" href="/signup">
+                    Signup
+                </a>
+            </div>
+    </section>
+</main>
+{% endblock content %}
