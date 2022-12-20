@@ -1,4 +1,4 @@
-# taskApp
+# TaskApp
 CRUD de una aplicacion de tareas, el cual permite registrar las tareas pesonales del usuario logueado.
 
 ## Funcionalidades
@@ -13,3 +13,4 @@ CRUD de una aplicacion de tareas, el cual permite registrar las tareas pesonales
 - Django
 - Bootstrap 5
 - sqlite 3
+- Html
